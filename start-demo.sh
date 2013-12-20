@@ -35,20 +35,6 @@
 
 JAVA_OPTIONS=
 
-if [ "$JAVA_HOME" ]
-  then
-    JAVA="$JAVA_HOME/bin/java"    
-  else
-    JAVA=$(which java)	
-  fi
-
-if [ -z "$JAVA" ]
-  then
-    echo "Cannot find a valid JDK, please configure the JAVA_HOME environment variable."
-    exit 1
-fi
-
-
 if [ "$JETTY_PORT" ] 
 then
   JAVA_OPTIONS="$JAVA_OPTIONS -Djetty.port=$JETTY_PORT"
@@ -64,4 +50,4 @@ echo "*"
 echo "*"
 echo "*****************************************************************************"
 
-$JAVA $JAVA_OPTIONS -jar jetty-runner.jar dashbuilder-demo.war
+java $JAVA_OPTIONS -jar jetty-runner.jar dashbuilder-demo.war
