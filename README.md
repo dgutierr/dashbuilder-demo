@@ -30,21 +30,12 @@ Installation steps
         Java(TM) SE Runtime Environment (build 1.6.0_35-b10)
         Java HotSpot(TM) 64-Bit Server VM (build 20.10-b01, mixed mode)"
 
-* Set the JAVA_HOME environment variable pointing to the JDK installation directory.
 
-        $ export JAVA_HOME=/usr/java/jdk1.6.0
-
-
-* Execute the start-demo.sh script for linux environments or start-demo.bat for windows
-   environments.
+* Execute the start-demo.sh script for linux environments 
 
         $ cd <target_directory>/dashbuilder-demo
         $ ./start-demo.sh
 
-   or
-
-        C:\ cd <target_directory>\dashbuilder-demo
-        start-demo.bat
 
   NOTE: The application uses an auto-deployable embedded H2 database which it's automatically created when you start
   the app for the very first time. The database initialization procedure it takes a few minutes. Furthermore, you should
