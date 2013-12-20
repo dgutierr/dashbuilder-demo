@@ -34,17 +34,8 @@ Installation steps
 
         $ export JAVA_HOME=/usr/java/jdk1.6.0
 
-* Unzip the dashbuilder-demo-installer.zip file to a given directory (the [target_directory]).
-  You should get a directory structure like this:
 
-         [target_directory]/dashbuilder-demo
-                              README.md
-                              start-demo.sh
-                              start-demo.bat
-                              realm.properties
-                              /db
-
-* Open a command window and execute the start-demo.sh script for linux environments or start-demo.bat for windows
+* Execute the start-demo.sh script for linux environments or start-demo.bat for windows
    environments.
 
         $ cd <target_directory>/dashbuilder-demo
