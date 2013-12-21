@@ -1,7 +1,8 @@
 Dashboard Builder Demo
 =======================
 
-The following directories contain the needed files to run the Dashboard Builder application in standalone demo mode.
+The following directories contain the needed files to run the [Dashbuilder](https://github.com/droolsjbpm/dashboard-builder) application in demo mode.
+
 Feel free to run and modify this installation as much as you wish, but remember that's NOT
 RECOMMENDED to use this demo in production environments.
 
@@ -33,7 +34,6 @@ Installation steps
 
 * Execute the start-demo.sh script for linux environments 
 
-        $ cd <target_directory>/dashbuilder-demo
         $ ./start-demo.sh
 
 
